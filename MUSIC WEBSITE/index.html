@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYKOMUSIC WEBSITE</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Шапка сайту -->
+    <header>
+      <a href="index.html" class="brand"><img src="image/main-page/logo.png" alt=""></a>
+      <div class="menu-btn"></div>
+
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="index.html">HOME</a>
+          <a href="pages/singerspage.html">About Artist</a>
+          <a href="pages/form.html">Sign In</a>
+        </div>
+      </div>
+    </header>
+    <!-- Основна секція(Відео та аудіофайли) -->
+    <section class="home">
+      <video class="video-slide active" src="media/1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="media/2.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="media/3.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="media/4.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="media/5.mp4" autoplay muted loop></video>
+
+
+      <audio id="song">
+        <source src="media/Heat-Waves_64(PagalWorld).mp3" type="audio/mp3">
+      </audio>
+      <!-- Контент секції -->
+      <div class="content">
+        <h1>Така музика<br><span>Тільки у нас</span></h1>
+        <a href="/pages/singerspage.html"><span></span><span></span><span></span><span></span> Read More</a>
+        <div class="right">
+          <p>Click To Play</p>
+          <img src="image/main-page/play.png" id="icon-play" alt="">
+        </div>
+      </div>
+      <!-- Іконки з соц-мережами -->
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/maksym-kuziv-932326255/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://t.me/Maks_Kuziv" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/maksymkuziv/" target="_blank"><i class="fab fa-telegram"></i></a>
+      </div>
+      <!-- Слійдер з відео -->
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+      </div>
+    </section>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
